@@ -10,7 +10,7 @@ const fetchData = (FilE_NAME) => {
   const res = axios.get(
     // 자신의 깃허브 주소 입력
     // https://raw.githubusercontent.com/'자신 깃허브 이름'/simulation/main/simulation/src/data/${FilE_NAME}.json
-    `https://raw.githubusercontent.com/HNU209/simulation-class/main/simulation/src/data/${FilE_NAME}.json`
+    `https://raw.githubusercontent.com/jihoyeo/test_simulation/main/simulation/src/data/${FilE_NAME}.json`
   );
   const data = res.then((r) => r.data);
   return data;
